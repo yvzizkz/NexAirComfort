@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nexaircomfort.com/sitemap.xml
+
+# Disallow dashboard/private areas
+Disallow: /dashboard
+Disallow: /es/panel
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /es/iniciar-sesion
+Disallow: /es/registro
+Disallow: /es/recuperar-contrasena
+Disallow: /api/

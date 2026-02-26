@@ -1,38 +1,54 @@
+import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { LanguageProvider } from './i18n/LanguageContext'
 import { AuthProvider } from './hooks/useAuth'
 import Layout from './components/Layout'
 import DashboardLayout from './components/DashboardLayout'
 import ProtectedRoute from './components/ProtectedRoute'
+
+// Eagerly load homepage for fastest initial paint
 import HomePage from './pages/HomePage'
-import MembershipPage from './pages/MembershipPage'
-import AboutPage from './pages/AboutPage'
-import ContactPage from './pages/ContactPage'
-import AreasPage from './pages/AreasPage'
-import CityPage from './pages/areas/CityPage'
-import BlogPage from './pages/BlogPage'
-import BlogPostPage from './pages/BlogPostPage'
-import EstimatePage from './pages/EstimatePage'
-import LoginPage from './pages/LoginPage'
-import RegisterPage from './pages/RegisterPage'
-import ForgotPasswordPage from './pages/ForgotPasswordPage'
-import ServicePage from './pages/services/ServicePage'
-import DashboardOverview from './pages/dashboard/Overview'
-import DashboardPlan from './pages/dashboard/Plan'
-import DashboardAppointments from './pages/dashboard/Appointments'
-import DashboardHistory from './pages/dashboard/History'
-import DashboardInvoices from './pages/dashboard/Invoices'
-import DashboardNuve from './pages/dashboard/Nuve'
-import DashboardReferrals from './pages/dashboard/Referrals'
-import DashboardSupport from './pages/dashboard/Support'
-import DashboardSettings from './pages/dashboard/Settings'
-import TermsPage from './pages/TermsPage'
-import PrivacyPage from './pages/PrivacyPage'
-import NotFoundPage from './pages/NotFoundPage'
-import MembershipWelcomePage from './pages/MembershipWelcomePage'
+
+// Lazy-load all other pages for code splitting
+const MembershipPage = lazy(() => import('./pages/MembershipPage'))
+const AboutPage = lazy(() => import('./pages/AboutPage'))
+const ContactPage = lazy(() => import('./pages/ContactPage'))
+const AreasPage = lazy(() => import('./pages/AreasPage'))
+const CityPage = lazy(() => import('./pages/areas/CityPage'))
+const BlogPage = lazy(() => import('./pages/BlogPage'))
+const BlogPostPage = lazy(() => import('./pages/BlogPostPage'))
+const EstimatePage = lazy(() => import('./pages/EstimatePage'))
+const LoginPage = lazy(() => import('./pages/LoginPage'))
+const RegisterPage = lazy(() => import('./pages/RegisterPage'))
+const ForgotPasswordPage = lazy(() => import('./pages/ForgotPasswordPage'))
+const ServicePage = lazy(() => import('./pages/services/ServicePage'))
+const TermsPage = lazy(() => import('./pages/TermsPage'))
+const PrivacyPage = lazy(() => import('./pages/PrivacyPage'))
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
+const MembershipWelcomePage = lazy(() => import('./pages/MembershipWelcomePage'))
+
+// Dashboard pages
+const DashboardOverview = lazy(() => import('./pages/dashboard/Overview'))
+const DashboardPlan = lazy(() => import('./pages/dashboard/Plan'))
+const DashboardAppointments = lazy(() => import('./pages/dashboard/Appointments'))
+const DashboardHistory = lazy(() => import('./pages/dashboard/History'))
+const DashboardInvoices = lazy(() => import('./pages/dashboard/Invoices'))
+const DashboardNuve = lazy(() => import('./pages/dashboard/Nuve'))
+const DashboardReferrals = lazy(() => import('./pages/dashboard/Referrals'))
+const DashboardSupport = lazy(() => import('./pages/dashboard/Support'))
+const DashboardSettings = lazy(() => import('./pages/dashboard/Settings'))
+
+function PageLoader() {
+  return (
+    <div className="flex items-center justify-center min-h-[50vh]">
+      <div className="w-10 h-10 border-3 border-[var(--sky)] border-t-transparent rounded-full animate-spin" />
+    </div>
+  )
+}
 
 function AppRoutes() {
   return (
+    <Suspense fallback={<PageLoader />}>
     <Routes>
       {/* Public routes with main layout */}
       <Route element={<Layout />}>
@@ -102,6 +118,7 @@ function AppRoutes() {
       {/* 404 */}
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
+    </Suspense>
   )
 }
 

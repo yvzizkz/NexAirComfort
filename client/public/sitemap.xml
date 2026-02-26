@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://nexaircomfort.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Membership -->
+  <url>
+    <loc>https://nexaircomfort.com/membership</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/membership" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/membresia" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/membresia</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/membership" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/membresia" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Services -->
+  <url>
+    <loc>https://nexaircomfort.com/services/ac-repair</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/ac-repair" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/reparacion-ac" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/servicios/reparacion-ac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/ac-repair" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/reparacion-ac" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nexaircomfort.com/services/ac-installation</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/ac-installation" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/instalacion-ac" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/servicios/instalacion-ac</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/ac-installation" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/instalacion-ac" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nexaircomfort.com/services/heating</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/heating" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/calefaccion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/servicios/calefaccion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/heating" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/calefaccion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nexaircomfort.com/services/maintenance</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/maintenance" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/mantenimiento" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/servicios/mantenimiento</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/maintenance" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/mantenimiento" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nexaircomfort.com/services/mini-splits</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/mini-splits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/mini-splits" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/servicios/mini-splits</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/mini-splits" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/mini-splits" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://nexaircomfort.com/services/indoor-air-quality</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/indoor-air-quality" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/calidad-aire-interior" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/servicios/calidad-aire-interior</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/services/indoor-air-quality" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/servicios/calidad-aire-interior" />
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://nexaircomfort.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/nosotros" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/nosotros</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/nosotros" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://nexaircomfort.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/contacto" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/contacto</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/contacto" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Get Estimate -->
+  <url>
+    <loc>https://nexaircomfort.com/get-estimate</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/get-estimate" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/cotizacion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/cotizacion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/get-estimate" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/cotizacion" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://nexaircomfort.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/blog" />
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Service Areas -->
+  <url>
+    <loc>https://nexaircomfort.com/areas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/areas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- City Pages -->
+  <url>
+    <loc>https://nexaircomfort.com/areas/phoenix</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/phoenix" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/phoenix" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/scottsdale</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/scottsdale" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/scottsdale" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/paradise-valley</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/paradise-valley" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/paradise-valley" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/tempe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/tempe" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/tempe" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/mesa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/mesa" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/mesa" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/chandler</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/chandler" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/chandler" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/gilbert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/gilbert" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/gilbert" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/glendale</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/glendale" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/glendale" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/areas/peoria</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/areas/peoria" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/areas/peoria" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Legal -->
+  <url>
+    <loc>https://nexaircomfort.com/terms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/terminos" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/terminos</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/terminos" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/privacidad" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://nexaircomfort.com/es/privacidad</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nexaircomfort.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://nexaircomfort.com/es/privacidad" />
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>
